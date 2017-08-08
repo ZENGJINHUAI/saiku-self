@@ -58,14 +58,14 @@
     <bean id="licenseUtilsBean" class="org.saiku.service.license.LicenseUtils" init-method="init">
         <property name="repositoryDatasourceManager" ref="repositoryDsManager" />
     </bean>
-   <bean id="dataSource" class="com.mysql.jdbc.jdbc2.optional.MysqlDataSource">
+  <!-- <bean id="dataSource" class="com.mysql.jdbc.jdbc2.optional.MysqlDataSource">
        <property name="password" value="${userdao.password}"/>
        <property name="user" value="${userdao.username}"/>
        <property name="url" value="${userdao.url}"/>
        <property name="encoding" value="UTF-8"/>
-   </bean>
+   </bean>-->
     <bean id="database" class="org.saiku.database.Database" init-method="init">
-        <!--<constructor-arg ref="dataSource"/>-->
+        <!--<constructor-arg name="dataSource" ref="dataSource"/>-->
         <property name="datasourceManager" ref="repositoryDsManager"/>
 
     </bean>
