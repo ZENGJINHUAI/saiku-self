@@ -276,7 +276,7 @@
 									<classifier>nomin</classifier>
 									<type>war</type>
 								</artifact>
-			                     <artifact>
+								<artifact>
 			                        <file>target/saiku-ui-${project.version}.zip</file>
 			                        <type>zip</type>
 			                    </artifact>

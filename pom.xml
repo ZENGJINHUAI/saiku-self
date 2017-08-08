@@ -18,9 +18,9 @@
         <module>saiku-ui</module>
         <module>saiku-webapp</module>
         <module>saiku-server</module>
-        <module>saiku-bi-platform-plugin-p5</module>
+        <!--<module>saiku-bi-platform-plugin-p5</module>
         <module>saiku-bi-platform-plugin-p6</module>
-        <module>saiku-bi-platform-plugin-p7</module>
+        <module>saiku-bi-platform-plugin-p7</module>-->
     </modules>
 
     <distributionManagement>
@@ -171,7 +171,7 @@
                     <webPassword>...</webPassword>
                 </configuration>
             </plugin>-->
-            <plugin>
+  <!--          <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.5</version>
@@ -189,7 +189,7 @@
                     <nexusUrl>http://repo.meteorite.bi</nexusUrl>
                     <skipStaging>true</skipStaging>
                 </configuration>
-            </plugin>
+            </plugin>-->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>license-maven-plugin</artifactId>
@@ -308,8 +308,8 @@
                 <module>saiku-ui</module>
                 <module>saiku-webapp</module>
                 <module>saiku-server</module>
-                <module>saiku-bi-platform-plugin-p5</module>
-                <module>saiku-web-tests</module>
+                <!--<module>saiku-bi-platform-plugin-p5</module>
+                <module>saiku-web-tests</module>-->
             </modules>
         </profile>
     </profiles>

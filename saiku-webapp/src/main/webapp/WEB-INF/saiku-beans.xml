@@ -65,7 +65,7 @@
        <property name="encoding" value="UTF-8"/>
    </bean>
     <bean id="database" class="org.saiku.database.Database" init-method="init">
-        <constructor-arg ref="dataSource"/>
+        <!--<constructor-arg ref="dataSource"/>-->
         <property name="datasourceManager" ref="repositoryDsManager"/>
 
     </bean>
